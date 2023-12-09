@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+@media (max-width: 600px) {
+  header {
+    font-size: 0.8em;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Specific Styles for Each Page */
+
+/* Index Page Styles */
+body.index {
+  background-color: #f0f0f0;
+}
+
+/* Soccer Page Styles */
+body.soccer {
+  background-color: #e6f7ff;
+}
+
+/* Career Page Styles */
+body.career {
+  background-color: #ffe6e6;
+}
+
+/* Culture Page Styles */
+body.culture {
+  background-color: #ffffcc;
+}
+
+/* Fitness Page Styles */
+body.fitness {
+  background-color: #d9ead3;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
